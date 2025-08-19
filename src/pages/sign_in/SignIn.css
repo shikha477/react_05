@@ -1,0 +1,156 @@
+.sign-in-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sign-in-form{
+   border: 1px solid #ccc;
+   padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sign-in-form label{
+    display: block;
+    margin-top: 5PX;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sign-in-form input[type="email"],
+.sign-in-form input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.sign-in-form input:hover{
+    border-color: #066435;
+    box-shadow: 0 0 5px rgba(6, 95, 21, 0.5);
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.remember-me label{
+    margin-left: 5px;
+    margin-top:5px;
+}
+.forgot-password{
+    cursor: pointer;
+    color: #066435;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.sign-in-button{
+    border-radius: 50px;
+    border:2px solid #066435;
+    padding: 6px 14px;
+    font-weight: 500;
+    font-size:  16px;
+    min-width: auto;
+    background-color: #066435;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 38%;
+}
+.sign-in-button:hover{
+    background-color:rgb(10, 88, 10);
+    border-style: none;
+    color:white;
+}
+.rewards-title{
+    color:#066435;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.rewards-container{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 28%;
+}
+hr{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.rewards-container button{
+    border-radius: 50px;
+    border:2px solid #066435;
+    padding: 6px 14px;
+    font-weight: 500;
+    font-size:  16px;
+    min-width: auto;
+    background-color: transparent;
+    margin-top: 20px;
+    color: #066435;
+    align-items: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .sign-in-form {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .sign-in-title,
+    .rewards-title {
+        font-size: 20px;
+    }
+
+    .sign-in-button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rewards-container {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .sign-in-title,
+    .rewards-title {
+        font-size: 18px;
+    }
+
+    .sign-in-form label,
+    .forgot-password,
+    .remember-me label {
+        font-size: 14px;
+    }
+
+    .sign-in-form input[type="email"],
+    .sign-in-form input[type="password"] {
+        padding: 8px;
+    }
+
+    .sign-in-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .rewards-container {
+        padding: 15px;
+    }
+}

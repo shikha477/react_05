@@ -1,0 +1,158 @@
+.join-now-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.join-now-subtitle{
+    font-size: 1rem;
+    color: #888787;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.join-now-description{
+    font-weight: 600;
+    margin-top: 10px;
+    color: #888787;
+    text-align: center;
+}
+.join-now-form{
+    width: 45%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+
+}
+.join-now-form-title{
+    margin-left: 15%;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.join-now-form-subtitle{
+    margin-left: 15%;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.join-now-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+     margin-left: 15%;
+}
+.join-now-form input {
+    padding: 10px;
+    border: 1px solid rgb(10, 59, 10);
+    border-radius: 4px;
+    width: 75%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.join-now-form input:hover {
+    border-color: rgb(10, 59, 10);
+    box-shadow: 0 0 5px rgba(10, 59, 10, 0.5);
+}
+.join-now-form label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.join-now-form h1{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.p1{
+     font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+     color: #333;
+}
+.join-now-form-password-info{
+    margin-right: 100px;
+}
+.join-now-form-checkboxes h1{
+    color:rgb(9, 68, 9);
+    text-decoration: underline;
+    margin-left: 15%;
+    margin-top: 60px;
+}
+.join-now-form-checkboxes h2{
+    font-size: 1.2rem;
+    color: #888787;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+.join-now-form-checkboxes p{
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-right: 30%;
+}
+.join-now-form-checkboxes input{
+    margin-left: 15%;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+}
+.join-now-form label{
+    margin-left: 2%;
+    font-weight: bold;
+}
+.join-now-form-checkboxes-info{
+      font-size: 1.2rem;
+    color: #888787;
+    font-size: 17px;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+.join-now-form-checkboxes-title{
+    color: #888787;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.join-now-form-checkboxes input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: 15%;
+    width: 15px;
+    height: 15px;
+
+}
+.join-now-form-checkboxes label {
+    font-size: 19px;
+    color: #a19b9b;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.join-now-button{
+    background-color: #066435;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70%;
+    margin-top: 20px;
+}
+.join-now-button:hover {
+    background-color: #055a2c;
+    box-shadow: 0 0 10px rgba(6, 100, 53, 0.5);
+}

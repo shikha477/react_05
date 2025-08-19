@@ -1,0 +1,208 @@
+.gift_card_heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-left: 90px;
+}
+.gift_card_subheading{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 90px;
+    font-weight: bold;
+}
+.gift_card_feature{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-bottom: 20px;
+
+}
+.gift_card_feature img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.gift_card_feature img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gift_card_feature1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    margin-bottom: 20px;
+    background-color: #e6e5e5;
+    align-items: center;
+    width:87%;
+    height:100%;
+    border-radius: 10px;
+    margin-left: 90px;
+    
+}
+.gift_card_feature1 img{
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 0%;
+}
+
+.gift_card_feature1 p{
+    margin-right: 40%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.gift_card_feature2{
+    display:flex;
+    background-color: rgb(227, 235, 255);
+    padding: 40px 90px;
+}
+.gift_card_feature2 h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.gift_card_feature2 p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 5px;
+    color:#747474
+}
+.gift_card_button1{
+    border-radius: 20px;
+    border : 1px solid #000;
+    margin-left: 8px;
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.gift_card_button2{
+    border-radius: 20px;
+    border : 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin-left: 8px;
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.gift_card_feature4{
+    display: flex;
+    padding: 0 90px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.gift_card_feature4 img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    padding-left: 10px;
+    justify-content: space-between;
+
+}
+.gift_card_feature4 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gift_card_feature5{
+     display: flex;
+    padding: 0 90px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.gift_card_feature5 img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    padding-left: 10px;
+    justify-content: space-between;
+
+}
+.gift_card_feature5 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gift_card_bulk_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.gift_card_bulk_text h1{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.gift_card_bulk_text p{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #747474;
+}
+.gift_card_bulk_text button{
+    margin-left: 20px;
+    border:1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    width:100px;
+    height:30px;
+    margin-top: 20px;
+}
+.gift_card_about{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 90px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #ececec;
+    width: 100%;
+    height: 100%;
+}
+.gift_card_about1 h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+    color: #747474;
+    margin-top: 20px;
+}
+.gift_card_about1 p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333232;
+    margin-top: 20px;
+}
+.gift_card_about1 button{
+    margin-top: 20px;
+    border:1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    width:100px;
+    height:30px;
+}
+.gift_card_about2 h2{
+   font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+    color: #747474;
+    margin-top: 10px; 
+}
+.gift_card_about2 p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333232;
+    margin-top: 20px;
+}
+.gift_card_about2 button{
+    margin-top: 20px;
+    border:1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    width:200px;
+    height:30px;
+}

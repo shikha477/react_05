@@ -1,0 +1,527 @@
+/* .reward__header{
+   
+    background-color: rgb(11, 61, 11);
+    color:white;
+    text-align: center;
+    height:50px;
+    width: 100%;
+    padding-top: 10px;
+}
+.reward__text{
+    display:flex;
+    background-color: rgb(245, 252, 255);
+}
+.reward__text__left{
+    width: 50%;
+    padding-left: 20px;
+    
+}
+.reward__text__left h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color:rgb(11, 61, 11);
+    padding-top: 10%;
+    padding-left: 10px;
+
+}
+.reward__text__left p{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 1.0rem;
+}
+.reward__text__left button{
+    background-color: rgb(57, 107, 57);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top:40px;
+    margin-left: 20px;
+}
+.reward__text img{
+    width: 50%;
+    height: auto;
+}
+
+.reward__steps__text h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+.reward__steps__text p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.reward__steps{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.reward__steps__one img{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 60%;
+    padding-left: 10px;
+}
+.reward__steps__one h1{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 100px;
+}
+.reward__steps__one p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.reward__steps__two img{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 60%;
+    padding-left: 10px;
+}
+.reward__steps__two h1{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 40%;
+}
+.reward__steps__two p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 20px;
+}
+.reward__steps__three img{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 50%;
+    padding-left: 10px;
+}
+.reward__steps__three h1{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.reward__steps__three p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+.reward__rewards{
+    background-color: rgb(239, 247, 250);
+    height: 30vh;
+}
+.reward__rewards h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.reward__rewards__text {
+    display: flex;
+    justify-content: center;
+
+}
+.reward__rewards__text img{
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.reward__rewards__text h2{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.reward__extras1 h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.reward__extras1 p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.reward_extras{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.reward_extras__one img{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    margin-left: 50%;
+    padding-left: 10px;
+}
+.reward_extras__one h1{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 40%;
+}
+.reward_extras__one p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 20px;
+}
+.reward__ways__text1{
+    background-color: rgb(248, 248, 248);
+    height: 70vh;
+}
+.reward__ways__text h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.reward__ways__text p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.reward__ways{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    
+}
+.reward__ways__one h1{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 40%;
+}
+.reward__ways__one p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 31%;
+    padding-top: 10px;
+}
+.reward__ways__two img{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+.reward__ways__two h1{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+.reward__ways__two p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .reward__text {
+        flex-direction: column;
+    }
+
+    .reward__text__left,
+    .reward__text img {
+        width: 100%;
+    }
+
+    .reward__steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reward__steps__one,
+    .reward__steps__two,
+    .reward__steps__three {
+        margin-bottom: 30px;
+    }
+
+    .reward__steps__one img,
+    .reward__steps__two img,
+    .reward__steps__three img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reward__steps__one h1,
+    .reward__steps__two h1,
+    .reward__steps__three h1,
+    .reward__steps__one p,
+    .reward__steps__two p,
+    .reward__steps__three p {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .reward_extras {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reward_extras__one img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reward_extras__one h1,
+    .reward_extras__one p {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .reward__ways {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reward__ways__one h1,
+    .reward__ways__one p,
+    .reward__ways__two p {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .reward__ways__two img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reward__rewards__text {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ */
+
+ /* Header */
+.reward__header {
+    background-color: rgb(11, 61, 11);
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* Intro Text Section */
+.reward__text {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245, 252, 255);
+}
+
+.reward__text__left {
+    flex: 1 1 50%;
+    padding: 40px 20px;
+}
+
+.reward__text__left h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(11, 61, 11);
+    margin-bottom: 20px;
+}
+
+.reward__text__left p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.reward__text__left button {
+    background-color: rgb(57, 107, 57);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.reward__text img {
+    flex: 1 1 50%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Steps Section */
+.reward__steps__text h1,
+.reward__steps__text p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reward__steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.reward__steps__one,
+.reward__steps__two,
+.reward__steps__three {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.reward__steps__one img,
+.reward__steps__two img,
+.reward__steps__three img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* Rewards Section */
+.reward__rewards {
+    background-color: rgb(239, 247, 250);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.reward__rewards__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reward__rewards__text img {
+    width: 12px;
+    height: 12px;
+}
+
+.reward__rewards__text h2 {
+    font-size: 18px;
+}
+
+/* Extras Section */
+.reward__extras1 h1,
+.reward__extras1 p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.reward_extras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.reward_extras__one {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.reward_extras__one img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.reward_extras__one h1,
+.reward_extras__one p {
+    margin-top: 15px;
+}
+
+/* Ways Section */
+.reward__ways__text1 {
+    background-color: rgb(248, 248, 248);
+    padding: 50px 20px;
+}
+
+.reward__ways__text h1,
+.reward__ways__text p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reward__ways {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.reward__ways__one,
+.reward__ways__two {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.reward__ways__two img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.reward__ways__one h1,
+.reward__ways__two h1,
+.reward__ways__one p,
+.reward__ways__two p {
+    margin-top: 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .reward__text {
+        flex-direction: column;
+    }
+
+    .reward__text__left,
+    .reward__text img {
+        width: 100%;
+    }
+
+    .reward__steps,
+    .reward_extras,
+    .reward__ways {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reward__rewards__text {
+        flex-direction: column;
+    }
+
+    .reward__ways__one h1,
+    .reward__ways__one p,
+    .reward__ways__two h1,
+    .reward__ways__two p {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
