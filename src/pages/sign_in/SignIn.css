@@ -1,4 +1,4 @@
-.sign-in-title{
+/* .sign-in-title{
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
@@ -105,7 +105,7 @@ hr{
     align-items: center;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .sign-in-form {
         padding: 15px;
@@ -152,5 +152,201 @@ hr{
 
     .rewards-container {
         padding: 15px;
+    }
+} */
+
+
+/* Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sign-in-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sign-in-form {
+   border: 1px solid #ccc;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+   width: 100%;
+   max-width: 400px;
+   margin: 0 auto 30px auto;
+}
+
+.sign-in-form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sign-in-form input[type="email"],
+.sign-in-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.sign-in-form input[type="email"]:hover,
+.sign-in-form input[type="password"]:hover,
+.sign-in-form input[type="email"]:focus,
+.sign-in-form input[type="password"]:focus {
+    border-color: #066435;
+    box-shadow: 0 0 5px rgba(6, 95, 21, 0.5);
+    outline: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me label {
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.forgot-password {
+    cursor: pointer;
+    color: #066435;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.sign-in-button {
+    border-radius: 50px;
+    border: 2px solid #066435;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #066435;
+    color: white;
+    margin: 20px auto 0 auto;
+    display: block;
+    width: fit-content;
+    min-width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.sign-in-button:hover {
+    background-color: rgb(10, 88, 10);
+    border: none;
+    color: white;
+}
+
+.rewards-title {
+    color: #066435;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rewards-container {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    min-width: 280px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rewards-container button {
+    border-radius: 50px;
+    border: 2px solid #066435;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    margin-top: 20px;
+    color: #066435;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.rewards-container button:hover {
+    background-color: #066435;
+    color: white;
+}
+
+/* Responsive Adjustments */
+
+/* Medium screens and below */
+@media (max-width: 768px) {
+    .sign-in-form {
+        padding: 15px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    .sign-in-title,
+    .rewards-title {
+        font-size: 20px;
+    }
+
+    .sign-in-button {
+        width: 100%;
+        min-width: unset;
+        margin: 10px 0 0 0;
+    }
+
+    .rewards-container {
+        width: 80%;
+        min-width: unset;
+        margin: 20px auto 0 auto;
+    }
+}
+
+/* Small screens and below */
+@media (max-width: 480px) {
+    .sign-in-title,
+    .rewards-title {
+        font-size: 18px;
+    }
+
+    .sign-in-form label,
+    .forgot-password,
+    .remember-me label {
+        font-size: 14px;
+    }
+
+    .sign-in-form input[type="email"],
+    .sign-in-form input[type="password"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .sign-in-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .rewards-container {
+        padding: 15px;
+        width: 95%;
     }
 }

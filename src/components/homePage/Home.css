@@ -1,4 +1,4 @@
-.home_content{
+/* .home_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,8 +35,7 @@
     padding-top: 13px;
     margin-top: 11px;
     margin-bottom: 25%;
-    
-    
+  
 }
 .home_right_content {
     flex: 1;
@@ -88,6 +87,129 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .home_left_content h2 {
+    font-size: 1.8rem;
+    padding-top: 15%;
+  }
+
+  .home_left_content p {
+    font-size: 1rem;
+  }
+
+  .home_left_content button {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+  }
+
+  .home_right_content img {
+    max-width: 100%;
+  }
+} */
+
+
+.home_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+.home_left_content {
+  padding: 10px 20px;
+  background-color: rgb(22, 56, 22);
+  color: white;
+  text-align: center;
+  flex: 1 1 400px; /* flexible with a minimum width */
+  box-sizing: border-box;
+}
+
+.home_left_content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  padding-top: 20%;
+  font-weight: 700;
+}
+
+.home_left_content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.home_left_content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-bottom: 25%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home_left_content button:hover {
+  background-color: white;
+  color: rgb(22, 56, 22);
+}
+
+.home_right_content {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.home_right_content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0; /* You had border-radius twice, fixed */
+}
+
+/* Medium screens */
+@media screen and (max-width: 1024px) {
+  .home_content {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .home_left_content,
+  .home_right_content {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .home_left_content h2 {
+    font-size: 2.2rem;
+    padding-top: 10%;
+  }
+
+  .home_left_content p {
+    font-size: 1.05rem;
+  }
+
+  .home_left_content button {
+    font-size: 0.95rem;
+    margin-bottom: 15%;
+    padding-top: 10px;
+  }
+
+  .home_right_content {
+    margin-top: 20px;
+  }
+
+  .home_right_content img {
+    max-width: 90%;
+  }
+}
+
+/* Small screens */
 @media screen and (max-width: 600px) {
   .home_left_content h2 {
     font-size: 1.8rem;
